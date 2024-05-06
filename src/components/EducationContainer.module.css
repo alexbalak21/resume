@@ -1,0 +1,63 @@
+.educationChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(228, 230, 235, 0.25);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 348px;
+  height: 328px;
+}
+.instanceParent {
+  position: absolute;
+  top: 205px;
+  left: 43px;
+  width: 172px;
+  height: 15px;
+}
+.c {
+  position: relative;
+  font-weight: 500;
+}
+.cWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  border: 0.3px solid var(--color-lightslategray);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.instanceGroup {
+  position: absolute;
+  top: 80px;
+  left: 43px;
+  width: 225px;
+  height: 15px;
+}
+.education1 {
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  width: 78.5px;
+}
+.education {
+  position: absolute;
+  top: 193px;
+  left: 235px;
+  width: 348px;
+  height: 328px;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray);
+  font-family: var(--font-poppins);
+}

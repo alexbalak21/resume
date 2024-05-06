@@ -1,0 +1,21 @@
+.materialSymbolsdateRangeOuIcon {
+    width: 15px;
+    position: relative;
+    height: 15px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.div {
+    position: relative;
+}
+.yrGraduate {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-8xs);
+    text-align: left;
+    font-size: var(--font-size-3xs);
+    color: var(--color-dimgray);
+    font-family: var(--font-poppins);
+}

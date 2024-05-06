@@ -1,71 +1,11 @@
-.educationChild,
 .image1Icon {
   position: absolute;
   top: 0;
   left: 0;
-}
-.image1Icon {
   width: 595px;
   height: 842px;
   object-fit: cover;
   display: none;
-}
-.educationChild {
-  box-shadow: 0 4px 4px rgba(228, 230, 235, 0.25);
-  border-radius: var(--br-7xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gainsboro);
-  box-sizing: border-box;
-  width: 348px;
-  height: 328px;
-}
-.instanceParent {
-  position: absolute;
-  top: 205px;
-  left: 43px;
-  width: 172px;
-  height: 15px;
-}
-.c {
-  position: relative;
-  font-weight: 500;
-}
-.cWrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-5xs);
-  border: 0.3px solid var(--color-lightslategray);
-  display: none;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0 var(--padding-9xs);
-}
-.instanceGroup {
-  position: absolute;
-  top: 80px;
-  left: 43px;
-  width: 225px;
-  height: 15px;
-}
-.education1 {
-  position: absolute;
-  top: 15px;
-  left: 18px;
-  font-size: var(--font-size-mini);
-  font-weight: 500;
-  color: var(--color-black);
-  display: inline-block;
-  width: 78.5px;
-}
-.education {
-  position: absolute;
-  top: 193px;
-  left: 235px;
-  width: 348px;
-  height: 328px;
-  color: var(--color-gray);
 }
 .whiteBackground {
   position: absolute;
@@ -116,7 +56,7 @@
   left: 157px;
   color: var(--color-dimgray);
 }
-.jeraldOlivasResumeChild {
+.resumeChild {
   position: absolute;
   top: 147px;
   left: 12px;
@@ -124,36 +64,8 @@
   height: 1px;
   object-fit: contain;
 }
-.aboutBg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  box-shadow: 0 4px 4px rgba(228, 230, 235, 0.25);
-  border-radius: var(--br-7xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gainsboro);
-  box-sizing: border-box;
-  width: 211px;
-  height: 161px;
-}
-.about1 {
-  top: 15px;
-  left: 18px;
-  font-weight: 500;
-}
-.about,
-.about1,
 .more {
   position: absolute;
-}
-.about {
-  top: 193px;
-  left: 12px;
-  width: 211px;
-  height: 161px;
-  font-size: var(--font-size-mini);
-}
-.more {
   top: 0;
   left: 0;
   font-weight: 500;
@@ -173,10 +85,10 @@
   width: 37px;
   height: 15px;
 }
-.education2 {
+.education {
   left: 146px;
 }
-.education2,
+.education,
 .experience,
 .skillsTools,
 .training {
@@ -257,8 +169,8 @@
   top: 121px;
   left: 109px;
 }
-.jeraldOlivasResume,
-.mioptionsHorizontalIcon {
+.mioptionsHorizontalIcon,
+.resume {
   position: absolute;
   top: 157px;
   left: 556px;
@@ -266,7 +178,7 @@
   height: 12px;
   overflow: hidden;
 }
-.jeraldOlivasResume {
+.resume {
   top: 0;
   left: 0;
   background-color: var(--color-whitesmoke);

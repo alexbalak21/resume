@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
-import GroupComponent2 from "./GroupComponent2";
-import GroupComponent3 from "./GroupComponent3";
+import SkillItem from "./SkillItem";
+import Chip from "./Chip";
 import styles from "./SkillsTools.module.css";
 
 const SkillsTools: FunctionComponent = () => {
@@ -17,98 +17,98 @@ const SkillsTools: FunctionComponent = () => {
       <div className={styles.others}>Others</div>
       <img className={styles.skillsToolsItem} alt="" src="/line-2.svg" />
       <div className={styles.skillsTools1}>{`Skills & Tools`}</div>
-      <GroupComponent2
+      <SkillItem
         labelText="Commonly used"
         groupDivPosition="absolute"
         groupDivTop="63px"
         groupDivLeft="97px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="Visual Studio Code"
         groupDivPosition="absolute"
         groupDivTop="295.3px"
         groupDivLeft="18px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="Photoshop"
         groupDivPosition="absolute"
         groupDivTop="342.5px"
         groupDivLeft="16px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="Illustrator"
         groupDivPosition="absolute"
         groupDivTop="342.5px"
         groupDivLeft="90px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="Webflow"
         groupDivPosition="absolute"
         groupDivTop="362.6px"
         groupDivLeft="70px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="Canva"
         groupDivPosition="absolute"
         groupDivTop="362.6px"
         groupDivLeft="16px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="MS Office"
         groupDivPosition="absolute"
         groupDivTop="415.7px"
         groupDivLeft="16px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="PC setup"
         groupDivPosition="absolute"
         groupDivTop="415.7px"
         groupDivLeft="83px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="Command Prompt"
         groupDivPosition="absolute"
         groupDivTop="435.8px"
         groupDivLeft="15px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="Figma"
         groupDivPosition="absolute"
         groupDivTop="342.5px"
         groupDivLeft="159px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="GitHub"
         groupDivPosition="absolute"
         groupDivTop="295.3px"
         groupDivLeft="134px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="HTML"
         groupDivPosition="absolute"
         groupDivTop="154.7px"
         groupDivLeft="17px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent2
+      <SkillItem
         labelText="Java"
         groupDivPosition="absolute"
         groupDivTop="201.9px"
         groupDivLeft="163px"
         groupDivHeight="15.1px"
       />
-      <GroupComponent3
+      <Chip
         labelText="Sometimes"
         groupDivPosition="absolute"
         groupDivTop="63.3px"
@@ -122,7 +122,7 @@ const SkillsTools: FunctionComponent = () => {
         skillLabelRight="0%"
         skillLabelLeft="0%"
       />
-      <GroupComponent3
+      <Chip
         labelText="C Language"
         groupDivPosition="absolute"
         groupDivTop="201.9px"
@@ -136,7 +136,7 @@ const SkillsTools: FunctionComponent = () => {
         skillLabelRight="0%"
         skillLabelLeft="0%"
       />
-      <GroupComponent3
+      <Chip
         labelText="C Sharp"
         groupDivPosition="absolute"
         groupDivTop="201.9px"
@@ -150,7 +150,7 @@ const SkillsTools: FunctionComponent = () => {
         skillLabelRight="1%"
         skillLabelLeft="1%"
       />
-      <GroupComponent3
+      <Chip
         labelText="JavaScript"
         groupDivPosition="absolute"
         groupDivTop="154.7px"
@@ -164,7 +164,7 @@ const SkillsTools: FunctionComponent = () => {
         skillLabelRight="0.79%"
         skillLabelLeft="0.79%"
       />
-      <GroupComponent3
+      <Chip
         labelText="JavaScript"
         groupDivPosition="absolute"
         groupDivTop="222px"
@@ -178,7 +178,7 @@ const SkillsTools: FunctionComponent = () => {
         skillLabelRight="0.79%"
         skillLabelLeft="0.79%"
       />
-      <GroupComponent3
+      <Chip
         labelText="MySQL"
         groupDivPosition="absolute"
         groupDivTop="222px"
@@ -192,7 +192,7 @@ const SkillsTools: FunctionComponent = () => {
         skillLabelRight="0%"
         skillLabelLeft="0%"
       />
-      <GroupComponent3
+      <Chip
         labelText="CSS"
         groupDivPosition="absolute"
         groupDivTop="154.7px"
