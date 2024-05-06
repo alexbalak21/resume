@@ -1,0 +1,29 @@
+.componentChild {
+  width: 312px;
+  position: relative;
+  max-height: 100%;
+}
+.reactIcon {
+  width: 34px;
+  position: relative;
+  height: 12px;
+}
+.materialSymbolscommentOutliIcon {
+  width: 12px;
+  position: relative;
+  height: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.reactParent,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-248xl);
+}
+.vectorParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}

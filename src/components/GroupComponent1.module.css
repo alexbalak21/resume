@@ -1,0 +1,51 @@
+.icoutlineWorkOutlineIcon {
+  width: 15px;
+  position: relative;
+  height: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ojt486Hours {
+  position: relative;
+  font-weight: 500;
+}
+.collegeBased {
+  position: relative;
+  color: var(--color-dimgray);
+}
+.ojt486HoursParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper,
+.icoutlineWorkOutlineParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+.icoutlineWorkOutlineParent {
+  width: 100%;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frameWrapper {
+  width: 97.24%;
+  right: 1.38%;
+  left: 1.38%;
+}
+.groupParent {
+  width: 166.6px;
+  height: 30px;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray);
+  font-family: var(--font-poppins);
+}

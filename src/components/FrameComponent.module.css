@@ -1,0 +1,21 @@
+.componentChild {
+  width: 5px;
+  border-radius: 50%;
+  background-color: var(--color-lightslategray);
+  height: 5px;
+}
+.componentChild,
+.designClientRequirements {
+  position: relative;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,45 @@
+.bayanAcademy {
+  position: relative;
+}
+.intermediateFrontEndWeb {
+  position: relative;
+  font-weight: 500;
+}
+.certificateOfCompletion {
+  position: relative;
+  color: var(--color-dimgray);
+}
+.bayanAcademyParent {
+  position: absolute;
+  height: 100%;
+  width: 90.68%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 9.32%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.healthiconsiTrainingClassO {
+  position: absolute;
+  height: 38.3%;
+  width: 7.63%;
+  top: 14.89%;
+  right: 92.37%;
+  bottom: 46.81%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameParent {
+  width: 236px;
+  height: 47px;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray);
+  font-family: var(--font-poppins);
+}

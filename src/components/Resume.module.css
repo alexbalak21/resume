@@ -1,0 +1,279 @@
+.educationChild,
+.image1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image1Icon {
+  width: 595px;
+  height: 842px;
+  object-fit: cover;
+  display: none;
+}
+.educationChild {
+  box-shadow: 0 4px 4px rgba(228, 230, 235, 0.25);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 348px;
+  height: 328px;
+}
+.instanceParent {
+  position: absolute;
+  top: 205px;
+  left: 43px;
+  width: 172px;
+  height: 15px;
+}
+.c {
+  position: relative;
+  font-weight: 500;
+}
+.cWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  border: 0.3px solid var(--color-lightslategray);
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.instanceGroup {
+  position: absolute;
+  top: 80px;
+  left: 43px;
+  width: 225px;
+  height: 15px;
+}
+.education1 {
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  color: var(--color-black);
+  display: inline-block;
+  width: 78.5px;
+}
+.education {
+  position: absolute;
+  top: 193px;
+  left: 235px;
+  width: 348px;
+  height: 328px;
+  color: var(--color-gray);
+}
+.whiteBackground {
+  position: absolute;
+  top: -12px;
+  left: -1px;
+  box-shadow: 0 4px 4px rgba(228, 230, 235, 0.25);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 597px;
+  height: 196px;
+}
+.coverPhotoIcon {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  border-radius: 0 0 var(--br-xs) var(--br-xs);
+  width: 573px;
+  height: 43px;
+  object-fit: cover;
+}
+.profilePhotoIcon {
+  position: absolute;
+  top: 22px;
+  left: 28px;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+}
+.jeraldOlivas {
+  position: absolute;
+  top: 48px;
+  left: 157px;
+  font-size: var(--font-size-11xl);
+  display: flex;
+  color: var(--color-gray);
+  align-items: center;
+  width: 202px;
+  height: 31px;
+}
+.aVeryWellOrganized {
+  margin: 0;
+}
+.aVeryWellOrganizedContainer {
+  position: absolute;
+  top: 82px;
+  left: 157px;
+  color: var(--color-dimgray);
+}
+.jeraldOlivasResumeChild {
+  position: absolute;
+  top: 147px;
+  left: 12px;
+  width: 571px;
+  height: 1px;
+  object-fit: contain;
+}
+.aboutBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(228, 230, 235, 0.25);
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 211px;
+  height: 161px;
+}
+.about1 {
+  top: 15px;
+  left: 18px;
+  font-weight: 500;
+}
+.about,
+.about1,
+.more {
+  position: absolute;
+}
+.about {
+  top: 193px;
+  left: 12px;
+  width: 211px;
+  height: 161px;
+  font-size: var(--font-size-mini);
+}
+.more {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.materialSymbolsexpandMoreIcon {
+  position: absolute;
+  top: 2px;
+  left: 26px;
+  width: 11px;
+  height: 11px;
+  overflow: hidden;
+}
+.moreParent {
+  position: absolute;
+  top: 0;
+  left: 366px;
+  width: 37px;
+  height: 15px;
+}
+.education2 {
+  left: 146px;
+}
+.education2,
+.experience,
+.skillsTools,
+.training {
+  position: absolute;
+  top: 0;
+  font-weight: 500;
+}
+.skillsTools {
+  left: 55px;
+  white-space: pre-wrap;
+}
+.experience,
+.training {
+  left: 221px;
+}
+.training {
+  left: 300px;
+}
+.titles {
+  position: absolute;
+  top: 158px;
+  left: 12px;
+  width: 403px;
+  height: 15px;
+  color: var(--color-lightslategray);
+}
+.icbaselineCloseIcon,
+.icbaselineCloseIcon1,
+.icbaselineCloseIcon2 {
+  position: absolute;
+  top: 208px;
+  left: 556px;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+.icbaselineCloseIcon1,
+.icbaselineCloseIcon2 {
+  top: 546px;
+}
+.icbaselineCloseIcon2 {
+  top: 698px;
+}
+.fbb,
+.fig,
+.git,
+.inn {
+  position: absolute;
+  top: 119px;
+  left: 158px;
+  text-decoration: underline;
+  font-weight: 700;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+.fbb,
+.fig,
+.inn {
+  left: 180px;
+}
+.fbb,
+.inn {
+  left: 202px;
+}
+.fbb {
+  left: 246px;
+}
+.component1Icon,
+.component2Icon {
+  position: absolute;
+  top: 22px;
+  left: 561px;
+  width: 15px;
+  height: 15px;
+}
+.component2Icon {
+  top: 121px;
+  left: 109px;
+}
+.jeraldOlivasResume,
+.mioptionsHorizontalIcon {
+  position: absolute;
+  top: 157px;
+  left: 556px;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+.jeraldOlivasResume {
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  width: 595px;
+  height: 842px;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
