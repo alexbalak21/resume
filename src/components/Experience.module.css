@@ -1,0 +1,31 @@
+.icoutlineWorkOutlineIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.artistFreelance {
+  position: relative;
+  font-weight: 500;
+}
+.selfEmployed2018 {
+  position: relative;
+  color: var(--color-dimgray);
+}
+.artistFreelanceParent,
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.experience {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray);
+  font-family: var(--font-poppins);
+}
