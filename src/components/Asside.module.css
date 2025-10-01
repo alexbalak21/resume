@@ -1,0 +1,100 @@
+aside{
+
+position: absolute;
+width: 176px;
+height: 842px;
+top: 0%;
+bottom: 0%;
+background: #F7F9FC;
+}
+
+.content{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+
+
+.image{
+width: 100%;
+height: 80px;
+
+background: url(photo.png) center center/cover no-repeat;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+
+.container{
+width: 176px;
+height: 842px;
+}
+
+.header{
+width: 128px;
+height: 40px;
+}
+
+
+
+
+
+
+
+.name{
+width: 128px;
+height: 20px;
+
+/* Heading/Heading 1 bold */
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #2E2E48;
+}
+
+
+
+
+.role{
+width: 128px;
+height: 16px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 0.01em;
+
+/* Gradient/Primary */
+background: linear-gradient(90deg, #A478E8 0%, #516CF7 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
